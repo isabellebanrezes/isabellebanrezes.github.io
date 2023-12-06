@@ -16,9 +16,9 @@ body {
     font-family: "inter", sans-serif;
     color: black;
     min-height: 100vh;
+    width: 100%;
     /* 100% de la hauteur de la page */
-    
-  
+    font-size: 1rem;
 }
 
 
@@ -33,27 +33,21 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: contain;
-    background-size:  1200px 162px;
+    background-size:  100% 170px;
   
 
 }
 
-
-.photo {
-    min-height: 162px;
-    width: 160px;
-}
-
 .img {
-    height : 162px;
-    width: 160px;
+    height : 270px;
+    width: 342px;
 }
 
 .nom {
     /*background: url(./img/gris.png);*/
     text-align: center;
-    height: 160px;
-    width: 900px;
+    height: 270px;
+    width: 100%;
 }
 
 h1 {
@@ -62,7 +56,7 @@ h1 {
     padding-bottom: 20px;
     font-weight: 600;
     font-size: 2rem;
-    color: rgba(21, 82, 178, 0.638);
+    color: rgba(34, 108, 212, 0.889);
     
 
     
@@ -78,24 +72,56 @@ h2 {
 
 .competences {
     padding-top: 40px;
+
 }
 
-.main {
-    background: rgb(228, 234, 242);
+main{
+    display: flex;
+}
+.div-main {
+    background:white;
     min-height: 700px;
     width: 75%;
     padding-top: 25px;
     padding-left: 15px;
+    font-size: 0.9rem;
    }
 
 h3{
-    font-size: large;
+    font-size: medium;
     font-weight: 490;
 }
 
-.duree {
+.fonction {
+  font-style: italic;
   
 }
 
+.poste {
+  font-weight: 400;
+  color: rgb(134, 152, 170);
+
+}
+
+.experience {
+    margin-bottom: 25px;
+  
+}
+
+.admin {
+    width: 25%;
+    background: linear-gradient(rgba(141, 192, 240, 0.74),white);
+    text-align: center;
+    font-size: 1rem;
+   
+}
+
+h4 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+    font-weight: bold;
+
+}
 /* Flexbox sert à repartir des éléments sur la box */
 
