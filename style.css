@@ -39,6 +39,7 @@ header {
 
 .photo {
     width:25%;
+    min-width: 25%;
 }
 .img {
     height : 250px;
@@ -123,11 +124,16 @@ h3{
 }
 
 h4 {
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
     font-size: large;
+}
 
+.picto {
+    padding-top: 30px;
+    height: 50px;
+    width: 50px;
 }
 /* Flexbox sert à repartir des éléments sur la box */
 
