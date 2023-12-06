@@ -1,0 +1,77 @@
+
+  @font-face {
+    font-family: "Inter";
+    src: url(./Inter-200/Inter-VariableFont_slnt\,wght.ttf);
+  }
+
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    /* background: url(./img/Profil_isa.jpg) center/cover; */
+    color: black;
+    min-height: 100vh;
+    /* 100% de la hauteur de la page */
+}
+
+
+.header {
+    padding: 0;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 18% 82%;
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+
+.photo {
+    height: 162px;
+    width: 160px;
+}
+
+.img {
+    height : 162px;
+    width: 160px;
+}
+
+.nom {
+    background: url(./img/gris.png);
+    padding-top: 18px;
+    margin-bottom: 20px;
+    height: 147px;
+    
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(21, 82, 178, 0.638);
+    
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 11px -7px 5px #00000036;
+}
+
+
+.main {
+    min-height: 600px;
+    width: 80%;
+    background: rgb(211, 201, 201);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Flexbox sert à repartir des éléments sur la box */
+
