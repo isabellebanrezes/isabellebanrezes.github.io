@@ -1,12 +1,11 @@
 
   @font-face {
-    font-family: "Inter";
-    src: url(./Inter-200/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: "inter";
+    src: url(./inter/Inter-VariableFont_slnt\,wght.ttf);
   }
 
 
 * {
-    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -14,24 +13,34 @@
 
 body {
     /* background: url(./img/Profil_isa.jpg) center/cover; */
+    font-family: "inter", sans-serif;
     color: black;
     min-height: 100vh;
     /* 100% de la hauteur de la page */
+    
+  
 }
 
 
-.header {
+header {
     padding: 0;
     margin-left: 0px;
-    display: grid;
-    grid-template-columns: 18% 82%;
-    /*display: flex;
-    flex-wrap: wrap;*/
+    /*display: grid;
+    grid-template-columns: 18% 82%;*/
+    display: flex;
+    background-image: url(./img/gris.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    background-size:  1200px 162px;
+  
+
 }
 
 
 .photo {
-    height: 162px;
+    min-height: 162px;
     width: 160px;
 }
 
@@ -41,36 +50,51 @@ body {
 }
 
 .nom {
-    background: url(./img/gris.png);
-    padding-top: 18px;
-    margin-bottom: 20px;
-    height: 147px;
-    
+    /*background: url(./img/gris.png);*/
+    text-align: center;
+    height: 160px;
+    width: 900px;
 }
 
 h1 {
-    letter-spacing: 2px;
     text-align: center;
-    font-size: 2.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 2rem;
     color: rgba(21, 82, 178, 0.638);
+    
+
     
 }
 
 h2 {
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0;
     text-align: center;
-    font-size: 2.5rem;
-    text-shadow: 11px -7px 5px #00000036;
+    font-size: 2rem;
+    
 }
 
+.competences {
+    padding-top: 40px;
+}
 
 .main {
-    min-height: 600px;
-    width: 80%;
-    background: rgb(211, 201, 201);
-    margin: 0 auto;
-    padding: 10px;
+    background: rgb(228, 234, 242);
+    min-height: 700px;
+    width: 75%;
+    padding-top: 25px;
+    padding-left: 15px;
+   }
+
+h3{
+    font-size: large;
+    font-weight: 490;
+}
+
+.duree {
+  
 }
 
 /* Flexbox sert à repartir des éléments sur la box */
