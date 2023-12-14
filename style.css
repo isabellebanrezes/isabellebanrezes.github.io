@@ -4,7 +4,7 @@
  /* ########## GENERAL ######## */
  @font-face {
     font-family: "inter";
-    src: url(./inter/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(./Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf)
   }
 
 
@@ -17,67 +17,73 @@
 
 body {
     margin: O auto;
-
-    /* background: url(./img/Profil_isa.jpg) center/cover; */
     font-family: "inter", sans-serif;
     color: black;
     /* 100% de la hauteur de la page */
     font-size: 1rem;
+    font-weight: 320;
 }
 
 
 /* ############  HEADER ################ */
 
-section.top-cv {
-    background: url(./img/gris.png);
-    background-size: cover;
-    align-items: center;
-    height: 35vh;
+.top-page{
+    display: flex;
+    height: 30vh;
 }
 
-header{
+.header {
     display: flex;
-    align-items: center;
+    height: 30vh;
+    width: 100%;
+
+
 }
 
 .photo {
     display: flex;
     align-items: center;
-    height: 35vh;
-
-
+    height: 30vh;
 }
 
 .titre {
+    background: url(./img/gris.png);
+    background-size: cover;
+    background-position: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
     text-align: center;
     font-size: 2rem;
-    padding-left: 200px;
- 
+    width: 100%;
+
 }
 
+.menu {
+    
+}
 nav.nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
     width: 220px;
-    padding-left: 40px;
-    padding-top: 60px;
+    padding-left: 0px;
+    padding-top: 10px;
     font-size: 0.8rem;
 
 }
 
 nav.nav li {
+    display: flex;
     color: black;
 }
 
 
 h1 {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     font-weight: 600;
     font-size: 2.2rem;
     color: rgba(34, 108, 212, 0.889);
@@ -85,8 +91,10 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 2rem;
-    padding-top: 40px;
+    font-size: 2.1rem;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 35px;
 }
 
 /* ############# MAIN - CONTENU ############### */
@@ -99,33 +107,31 @@ main{
 /* ######## MAIN BLOC COLONNE CONTACT ET AUTRES */
 
 .admin {
-    width: 35vh;
+    
     background: linear-gradient(rgba(141, 192, 240, 0.74),white);
     font-size: 1rem;
     text-align: center;
-    font-weight: 350;
+    font-weight: 300;
+    width: 30vh;
 }
 
 h4 {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: large;
 }
 
 .picto {
     padding-top: 30px;
-    height: 50px;
-    width: 17%;
-    height: 3%;
-    
+    height: 40px;
+    width: 20%;
 }
 
 .logo {
-    height: 30px;
-    width: 12%;
+    height: 15px;
+    width: 10%;
 }
-
 
 .logo-git {
     height: 30px;
@@ -146,8 +152,8 @@ h4 {
 .div-main {
     background:white;
     width: 75%;
-    padding-top: 5px;
-    padding-left: 15px;
+    padding-top: 25px;
+    padding-left: 20px;
     font-size: 1rem;
    }
 
@@ -168,5 +174,24 @@ h3{
     margin-bottom: 20px;
 }
 
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
 
 
+.duree {
+    color: gray;
+    font-weight: 395;
+}
+
+.infos-web {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.lien {
+    display: flex;
+    flex-direction: column;
+}
