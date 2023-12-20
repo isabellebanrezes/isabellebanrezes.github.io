@@ -213,10 +213,20 @@ h3{
     padding-left: 35px;
 }
 
+.certifications{
+    padding-top: 45px;
+}
+.picto-formation{
+    float: left;
+    height: 20px;
+    width: 8%;
+}
+
 .titre-formation{
     display: flex;
     align-content: center;
     padding-bottom: 10px;
+    padding-left: 15px;
 }
 
 .liste-formation {
