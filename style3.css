@@ -1,0 +1,296 @@
+ /* ########## GENERAL ######## */
+ @font-face {
+    font-family: "inter";
+    src: url(./Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf)
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ##########   BODY ######################### */
+
+body {
+    margin: O auto;
+    font-family: "inter", sans-serif;
+    color: black;
+    /* 100% de la hauteur de la page */
+    font-size: 1rem;
+    font-weight: 320;
+    
+    
+}
+
+
+/* ############  HEADER ################ */
+
+.top-page{
+    display: flex;
+    height: 28vh;
+    
+}
+
+.header {
+    display: flex;
+    height: 28vh;
+    width: 100%;
+
+
+}
+
+.photo {
+    display: flex;
+    height: 28vh;
+    max-width: 28vh;
+}
+
+.titre {
+    background: url(./img/gris.png);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 100%;
+    padding-top: 0px;
+
+}
+
+.nom-prenom {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: rgba(34, 108, 212, 0.889);
+}
+
+.titre-poste {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1rem;
+}
+
+.titre-skill {
+    display: flex;
+    text-align: justify;
+    padding-right: 5px;
+}
+
+/* ############# MAIN - CONTENU ############### */
+
+.main{
+    display: flex;
+}
+
+
+/* ######## MAIN ADMIN CONTACT / OUTILS */
+
+.admin {
+    background:rgba(34, 108, 212, 0.889);
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 300;
+    min-width: 28vh;
+}
+
+.contact-titre {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.picto-contact {
+    padding-top: 30px;
+    align-self: center;
+    height: 45px;
+    width: 28%;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+}
+
+.contact-texte {
+    font-size: 1.2rem;
+}
+
+.contact-email {
+    font-size: 1.3rem;
+}
+
+.picto-outil {
+    padding-top: 30px;
+    align-self: center;
+    height: 40px;
+    width: 20%;
+    size: 10px;
+}
+
+.outil-titre {
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.logo {
+    height: 20px;
+    width: 55%;
+}
+
+.logo-git {
+    height: 30px;
+    width: 12%;
+    font-size: smaller;
+}
+
+.lien {
+    font-size: 0,5rem;
+    color: rgb(35, 35, 50);
+}
+
+.lien:hover {
+    color :green;
+}
+
+.infos-web {
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+
+.anglais-titre {
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+/* FORMATION */
+.block-formation{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(white,rgba(34, 108, 212, 0.889));
+    background: rgba(141, 192, 240, 0.74);
+    width: 100%;
+
+
+}
+.img-certif{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    width: 30px;
+}
+.picto-certif{
+    height: 45px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+}
+
+.certifications{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 0.8rem;
+}
+.picto-formation{
+    float: left;
+    height: 20px;
+    width: 8%;
+}
+
+.titre-formation{
+    display: flex;
+    align-content: center;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    height: 40px;
+    width: 30px;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.liste-formation {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formation {
+    margin: 15px;
+
+}
+.nom-ecole {
+    font-weight: 500;
+}
+
+.contenu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+/* ####### MAIN EXPERIENCE ######## */
+
+.main-experiences {
+    background:white;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 1rem;
+    min-width: 50%;
+   }
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 490;
+    margin-bottom: 5px;
+}
+
+
+.poste {
+  font-weight: 400;
+  color: black
+}
+
+.experience {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.duree {
+    color: gray;
+    font-weight: 395;
+}
+

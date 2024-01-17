@@ -58,7 +58,23 @@ body {
     text-align: center;
     font-size: 2rem;
     width: 100%;
+}
 
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 18px;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: rgba(34, 108, 212, 0.889);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 35px;
 }
 
 nav.nav {
@@ -76,24 +92,6 @@ nav.nav {
 nav.nav li {
     display: flex;
     color: black;
-}
-
-
-h1 {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 18px;
-    font-weight: 600;
-    font-size: 2.2rem;
-    color: rgba(34, 108, 212, 0.889);
-}
-
-h2 {
-    text-align: center;
-    font-size: 2.1rem;
-    font-weight: 400;
-    padding-top: 20px;
-    padding-bottom: 35px;
 }
 
 /* ############# MAIN - CONTENU ############### */
