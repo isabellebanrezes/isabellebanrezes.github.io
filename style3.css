@@ -155,12 +155,12 @@ body {
 }
 
 .logo {
-    height: 20px;
-    width: 55%;
+    height: 40px;
+    width: 60%;
 }
 
 .logo-git {
-    height: 30px;
+    height: 40px;
     width: 12%;
     font-size: smaller;
 }
@@ -176,7 +176,7 @@ body {
 
 .infos-web {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: 0.8rem;
 }
 
