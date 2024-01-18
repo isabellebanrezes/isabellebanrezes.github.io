@@ -110,7 +110,7 @@ body {
 }
 
 .contact-titre {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
     font-weight: 600;
     font-size: 1.4rem;
@@ -118,10 +118,10 @@ body {
 }
 
 .picto-contact {
-    padding-top: 30px;
+    padding-top: 25px;
     align-self: center;
-    height: 45px;
-    width: 28%;
+    height: 40px;
+    width: 20%;
 }
 
 .contacts{
@@ -135,14 +135,14 @@ body {
 }
 
 .contact-email {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .picto-outil {
-    padding-top: 30px;
+    padding-top: 40px;
     align-self: center;
-    height: 40px;
-    width: 20%;
+    height: 35px;
+    width: 15%;
     size: 10px;
 }
 
@@ -155,18 +155,13 @@ body {
 }
 
 .logo {
-    height: 40px;
+    height: 47px;
     width: 60%;
 }
 
-.logo-git {
-    height: 40px;
-    width: 12%;
-    font-size: smaller;
-}
-
 .lien {
-    font-size: 0,5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
     color: rgb(35, 35, 50);
 }
 
@@ -180,77 +175,105 @@ body {
     font-size: 0.8rem;
 }
 
+.logo-github {
+    height: 44px;
+    width: 18%;
+}
+
 .anglais-titre {
     text-transform: uppercase;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 10px;
     font-weight: 600;
     font-size: 1.4rem;
 }
 
-/* FORMATION */
-.block-formation{
+
+/* BLOCK CERTIF ET FORMATION */
+.block-formation {
     display: flex;
     justify-content: center;
     background: linear-gradient(white,rgba(34, 108, 212, 0.889));
     background: rgba(141, 192, 240, 0.74);
     width: 100%;
-
-
 }
-.img-certif{
+
+/* BLOCK CERTIFICATION */
+
+/* block certification et langages */
+.block-certification {
+    min-width: 0%;
+    padding-top: 36px;
+    padding-right: 26px;
+}
+
+/* logo certification */
+.picto-certif {
+    height: 35px;
+    width: 25%;
+    padding-top:25px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+
+/* titre certification */
+.titre-certif {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.titre-language {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.contenu-certif {
+    font-size: 1.2rem;
+}
+/* BLOCK FORMATION */
+
+/* bloc formation école */
+.formation {
+    margin: 15px;
+    font-size: 1.4rem;
+}
+/* picto diplome */
+.picto-formation {
+    height: 35px;
+    width: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+.titre-formation {
     display: flex;
-    justify-content: center;
     align-content: center;
+    padding-top: 20px;
     height: 40px;
     width: 30px;
-}
-.picto-certif{
-    height: 45px;
-    width: 30%;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-left: 35px;
-}
-
-.certifications{
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    font-size: 0.8rem;
-}
-.picto-formation{
-    float: left;
-    height: 20px;
-    width: 8%;
-}
-
-.titre-formation{
-    display: flex;
-    align-content: center;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    height: 40px;
-    width: 30px;
-    font-size: 1.8rem;
-    font-weight: 800;
+    font-size: 1.5rem;
+    font-weight: 650;
 }
 
 .liste-formation {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .formation {
     margin: 15px;
-
 }
 .nom-ecole {
     font-weight: 500;
+    font-size: 1.3rem;
 }
 
 .contenu {
@@ -268,9 +291,15 @@ body {
     width: 100%;
     padding-top: 25px;
     padding-left: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     min-width: 50%;
    }
+
+.titre-experience {
+    font-weight: 500;
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+}
 
 h3{
     font-size: 1.2rem;
