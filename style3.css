@@ -72,7 +72,7 @@ body {
 .titre-poste {
     text-align: center;
     font-size: 3.2rem;
-    font-weight: 600;
+    font-weight:250;
     padding-top: 25px;
     padding-bottom: 0px;
 }
@@ -112,8 +112,8 @@ body {
 .contact-titre {
     padding-top: 5px;
     padding-bottom: 10px;
-    font-weight: 600;
-    font-size: 1.4rem;
+    font-weight: 450;
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
@@ -135,7 +135,7 @@ body {
 }
 
 .contact-email {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .picto-outil {
@@ -150,8 +150,8 @@ body {
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 600;
-    font-size: 1.4rem;
+    font-weight: 450;
+    font-size: 1.3rem;
 }
 
 .logo {
@@ -184,8 +184,8 @@ body {
     text-transform: uppercase;
     padding-top: 40px;
     padding-bottom: 10px;
-    font-weight: 600;
-    font-size: 1.4rem;
+    font-weight: 450;
+    font-size: 1.2rem;
 }
 
 
@@ -204,30 +204,31 @@ body {
 .block-certification {
     min-width: 0%;
     padding-top: 36px;
-    padding-right: 26px;
+    padding-right: 0px;
+    padding-left: 30px;
 }
 
 /* logo certification */
 .picto-certif {
-    height: 35px;
-    width: 25%;
-    padding-top:25px;
-    padding-bottom: 5px;
+    height: 33px;
+    width: 20%;
+    padding-top:65px;
+    padding-bottom: 3px;
     padding-left: 40px;
 }
 
 /* titre certification */
 .titre-certif {
     font-weight: 500;
-    font-size: 1.5rem;
-    padding-bottom: 5px;
+    font-size: 1.3rem;
+    padding-bottom: 3px;
 }
 
 .titre-language {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 .contenu-certif {
@@ -238,7 +239,8 @@ body {
 /* bloc formation école */
 .formation {
     margin: 15px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    padding-left: 40px;
 }
 /* picto diplome */
 .picto-formation {
@@ -251,12 +253,12 @@ body {
 
 .titre-formation {
     display: flex;
-    align-content: center;
     padding-top: 20px;
+    padding-bottom: 5px;
     height: 40px;
     width: 30px;
-    font-size: 1.5rem;
-    font-weight: 650;
+    font-size: 1.7rem;
+    font-weight: 480;
 }
 
 .liste-formation {
@@ -272,7 +274,7 @@ body {
     margin: 15px;
 }
 .nom-ecole {
-    font-weight: 500;
+    font-weight: 450;
     font-size: 1.3rem;
 }
 
@@ -291,18 +293,23 @@ body {
     width: 100%;
     padding-top: 25px;
     padding-left: 20px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     min-width: 50%;
    }
 
 .titre-experience {
-    font-weight: 500;
-    font-size: 2.2rem;
-    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 2.4rem;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-right: 0px;
+    text-align: center;
+    color: grey;
+    text-shadow: 1px 1px 2px rgba(34, 108, 212, 0.889);
 }
 
-h3{
-    font-size: 1.2rem;
+.titre-emploi {
+    font-size: 1.5rem;
     font-weight: 490;
     margin-bottom: 5px;
 }
@@ -315,11 +322,12 @@ h3{
 
 .experience {
     margin: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+
 }
 
 .duree {
     color: gray;
-    font-weight: 395;
+    font-weight: 400;
 }
 
