@@ -72,7 +72,7 @@ body {
 .titre-poste {
     text-align: center;
     font-size: 3.2rem;
-    font-weight:250;
+    font-weight:350;
     padding-top: 25px;
     padding-bottom: 0px;
 }
@@ -188,10 +188,18 @@ body {
     font-size: 1.2rem;
 }
 
+.projets {
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: 450;
+    font-size: 1.2rem;
+}
 
 /* BLOCK CERTIFICATION ET FORMATION */
 .block-formation {
     display: flex;
+    justify-content: space-around;
     justify-content: center;
     background: linear-gradient(white,rgba(34, 108, 212, 0.889));
     background: rgba(141, 192, 240, 0.74);
@@ -288,30 +296,33 @@ body {
 
 /* ####### MAIN EXPERIENCE ######## */
 
+/* block expérience */
 .main-experiences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background:white;
     width: 100%;
     padding-top: 25px;
-    padding-left: 20px;
     font-size: 1.3rem;
     min-width: 50%;
    }
 
+/* titre du bloc expérience */
 .titre-experience {
     font-weight: 400;
     font-size: 2.4rem;
     padding-bottom: 50px;
     padding-top: 10px;
     padding-right: 0px;
-    text-align: center;
     color: grey;
     text-shadow: 1px 1px 2px rgba(34, 108, 212, 0.889);
 }
 
 .titre-emploi {
     font-size: 1.5rem;
-    font-weight: 490;
     margin-bottom: 5px;
+    font-weight: 500;
 }
 
 
@@ -320,14 +331,48 @@ body {
   color: black
 }
 
+.poste-next-regie {
+    padding-bottom: 8px;
+}
+
 .experience {
     margin: 5px;
     margin-bottom: 30px;
-
 }
+
+.experience-sfr {
+    padding-right: 15px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.experience-regie {
+    padding-right: 50px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+
+.experience-b2b {
+    padding-right: 80px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.experience-chef-de-projet {
+    padding-right: 60px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
 
 .duree {
     color: gray;
-    font-weight: 400;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.fonction {
+    margin-bottom: 10px;
 }
 
