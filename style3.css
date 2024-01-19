@@ -189,7 +189,7 @@ body {
 }
 
 
-/* BLOCK CERTIF ET FORMATION */
+/* BLOCK CERTIFICATION ET FORMATION */
 .block-formation {
     display: flex;
     justify-content: center;
@@ -212,7 +212,7 @@ body {
 .picto-certif {
     height: 33px;
     width: 20%;
-    padding-top:65px;
+    padding-top:45px;
     padding-bottom: 3px;
     padding-left: 40px;
 }
@@ -239,7 +239,7 @@ body {
 /* bloc formation école */
 .formation {
     margin: 15px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-left: 40px;
 }
 /* picto diplome */
