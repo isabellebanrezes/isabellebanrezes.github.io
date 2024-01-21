@@ -111,7 +111,7 @@ body {
 
 
 .picto-contact {
-    padding-top: 70px;
+    padding-top: 40px;
     align-self: center;
     height: 40px;
     width: 20%;
@@ -140,7 +140,7 @@ body {
 }
 
 .picto-outil {
-    padding-top: 40px;
+    padding-top: 60px;
     align-self: center;
     height: 35px;
     width: 15%;
@@ -149,7 +149,7 @@ body {
 
 .outil-titre {
     text-transform: uppercase;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     font-weight: 450;
     font-size: 1.3rem;
@@ -174,16 +174,18 @@ body {
     display:flex;
     justify-content: center;
     font-size: 0.8rem;
+    padding-top: 30px;
 }
 
 .logo-github {
     height: 44px;
     width: 18%;
+    padding-top: 30px;
 }
 
 .anglais-titre {
     text-transform: uppercase;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 10px;
     font-weight: 450;
     font-size: 1.2rem;
@@ -307,6 +309,7 @@ body {
     padding-top: 25px;
     font-size: 1.3rem;
     min-width: 50%;
+    background-color: rgb(226, 223, 223);
    }
 
 /* titre du bloc expérience */
@@ -315,7 +318,7 @@ body {
     font-size: 2.4rem;
     padding-bottom: 50px;
     padding-top: 10px;
-    padding-right: 0px;
+    padding-right: 100px;
     color: grey;
     text-shadow: 1px 1px 2px rgba(34, 108, 212, 0.889);
 }
