@@ -199,6 +199,14 @@ body {
     font-size: 1.2rem;
 }
 
+.loisir {
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-weight: 450;
+    font-size: 1.2rem;
+}
+
 /* BLOCK CERTIFICATION ET FORMATION */
 .block-formation {
     display: flex;
@@ -310,6 +318,7 @@ body {
     font-size: 1.3rem;
     min-width: 50%;
     background-color: rgb(226, 223, 223);
+    marg
    }
 
 /* titre du bloc expérience */
@@ -329,6 +338,12 @@ body {
     font-weight: 500;
 }
 
+.titre-emploi-clicked {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: white;
+}
 
 .poste {
   font-weight: 400;
@@ -369,6 +384,11 @@ body {
     margin-bottom: 30px;
 }
 
+.chef-de-projet {
+    padding-right: 75px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
 
 .duree {
     color: gray;
