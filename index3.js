@@ -27,12 +27,29 @@ window.addEventListener("mouseup", () => {
   mousemove.style.background = "grey";
 });
 
-const boxEmploi = document.querySelector(".titre-emploi");
+const titleFormation = document.querySelector(".titre-formation");
 
-boxEmploi.addEventListener("mouseenter", () => {
-  boxEmploi.style.background = "blue";
+titleFormation.addEventListener("mouseenter", () => {
+  titleFormation.style.color = "green";
 });
 
-boxEmploi.addEventListener("mouseout", () => {
-  boxEmploi.style.background = "grey";
+titleFormation.addEventListener("mouseout", () => {
+  titleFormation.style.color = "black";
+});
+
+const titleExperience = document.querySelector(".titre-experience");
+
+titleExperience.addEventListener("mouseover", () => {
+  titleExperience.style.color = "red";
+});
+
+titleExperience.addEventListener("mouseout", () => {
+  titleExperience.style.color = "black";
+});
+
+const cursor = document.querySelector(".cursor");
+
+window.addEventListener("mousemove", (e) => {
+  cursor.style.left = e.pageX + "px";
+  cursor.style.top = e.pageY + "px";
 });
