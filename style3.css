@@ -13,7 +13,6 @@
 /* ##########   BODY ######################### */
 
 body {
-    overflow: hidden;
     margin: O auto;
     font-family: "inter", sans-serif;
     color: black;
@@ -414,27 +413,7 @@ body {
     z-index: 0;
 }
 
-.cursor {
-    width:40px;
-    height:40px;
-    cursor:none;
-    border: 1px dashed red;
-    transform: translate(-50%,-40%);
-    border-radius: 50%;
-    position: absolute;
-}
 
-.cursor::before {
-    content:'';
-    position:absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    width:5px;
-    height: 5px;
-    background: crimson;
-    border-radius: 50%;
-}
 
 
 
