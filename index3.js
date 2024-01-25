@@ -30,7 +30,7 @@ window.addEventListener("mouseup", () => {
 const titleFormation = document.querySelector(".titre-formation");
 
 titleFormation.addEventListener("mouseenter", () => {
-  titleFormation.style.color = "rgba(3,93,151)";
+  titleFormation.style.color = "rgba(129,5,93)";
 });
 
 titleFormation.addEventListener("mouseout", () => {
@@ -45,4 +45,27 @@ titleExperience.addEventListener("mouseover", () => {
 
 titleExperience.addEventListener("mouseout", () => {
   titleExperience.style.color = "black";
+  /* titleExperience.style.transform = "rotate(-2deg)"; */
+});
+
+// Keypress //
+
+/* const keyPress = document.querySelector(".keypress");
+
+const key = document.getElementById("key");
+
+document.addEventListener("keypress", (e) => {
+  key.textContent = e.key;
+}); */
+
+const mainExpe = document.querySelector(".main-experiences");
+
+window.addEventListener("scroll", () => {
+  console.log(window.scrollY);
+
+  if (window.scrollY > 630) {
+    mainExpe.style.background = "rgba(196,212,230)";
+  } else {
+    mainExpe.style.background = "rgb(226, 223, 223)";
+  }
 });
