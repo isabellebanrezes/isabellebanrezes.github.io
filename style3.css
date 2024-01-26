@@ -410,7 +410,7 @@ body {
     transform: translate(-55%,-55%);
     border-radius: 15px;
     transition: 0.4s ease;
-    z-index: 0;
+    z-index: -1;
 }
 
 

@@ -61,7 +61,7 @@ document.addEventListener("keypress", (e) => {
 const mainExpe = document.querySelector(".main-experiences");
 
 window.addEventListener("scroll", () => {
-  console.log(window.scrollY);
+  // console.log(window.scrollY);//
 
   if (window.scrollY > 630) {
     mainExpe.style.background = "rgba(196,212,230)";
