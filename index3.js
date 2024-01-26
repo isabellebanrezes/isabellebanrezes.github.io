@@ -69,3 +69,30 @@ window.addEventListener("scroll", () => {
     mainExpe.style.background = "rgb(226, 223, 223)";
   }
 });
+
+const inputName = document.querySelector('input[type="text"]');
+// console.log(inputName); //
+
+const selectLanguage = document.querySelector("select");
+//console.log(selectLanguage);//
+
+const form = document.querySelector("form");
+console.log(form);
+
+let pseudo = "";
+let choiceLanguage = "";
+
+inputName.addEventListener("input", (e) => {
+  pseudo = e.target.value;
+  console.log(pseudo);
+});
+
+selectLanguage.addEventListener("input", (e) => {
+  choiceLanguage = e.target.value;
+  console.log(choiceLanguage);
+});
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.log("yes !");
+});
