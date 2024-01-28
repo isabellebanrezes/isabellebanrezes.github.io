@@ -6,10 +6,13 @@ titreExperience.addEventListener("click", () => {
   console.log("j'ai cliqué sur le titre exprérience !");
 });
 
-const emplois = document.querySelector(".titre-emploi");
+const emplois = document.querySelectorAll(".titre-emploi");
+console.log(emplois);
 
-emplois.addEventListener("click", () => {
-  emplois.classList.toggle("titre-emploi-clicked");
+emplois.forEach((emploi) => {
+  emploi.addEventListener("click", (e) => {
+    emploi.classList.toggle("titre-emploi-clicked");
+  });
 });
 
 const mousemove = document.querySelector(".mousemove");
@@ -77,7 +80,7 @@ const selectLanguage = document.querySelector("select");
 //console.log(selectLanguage);//
 
 const form = document.querySelector("form");
-console.log(form);
+//console.log(form);//
 
 let pseudo = "";
 let choiceLanguage = "";
@@ -94,5 +97,13 @@ selectLanguage.addEventListener("input", (e) => {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  console.log("yes !");
+  console.log(cgv.checked);
+
+  if (cgv.checked) {
+    document.querySelector("form > div").innerHTML = `
+      <p> Pseudo : ${pseudo}</p>
+      <p> Language : ${choiceLanguage}</p>`;
+  } else {
+    alert("Veuillez accepter les cgv");
+  }
 });
