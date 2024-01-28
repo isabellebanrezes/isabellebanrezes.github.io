@@ -7,11 +7,20 @@ titreExperience.addEventListener("click", () => {
 });
 
 const emplois = document.querySelectorAll(".titre-emploi");
-console.log(emplois);
+// console.log(emplois);//
 
 emplois.forEach((emploi) => {
   emploi.addEventListener("click", (e) => {
     emploi.classList.toggle("titre-emploi-clicked");
+  });
+});
+
+const durees = document.querySelectorAll(".duree");
+console.log(durees);
+
+durees.forEach((duree) => {
+  duree.addEventListener("click", (e) => {
+    e.target.style.color = "black";
   });
 });
 
