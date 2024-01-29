@@ -16,6 +16,7 @@ body {
     margin: O auto;
     font-family: "inter", sans-serif;
     color: black;
+    /* overflow: hidden; */
 
 
 
@@ -89,18 +90,6 @@ nav {
     font-size: 1rem;
 }
 
-
-nav::after {
-    content: "";
-    height: 150px;
-    width: 150px;
-    background: radial-gradient(circle closet-side, red);
-    position :absolute;
-    transform: translate(-50%, -50%);
-}
-
-
-
 .titre-skill {
     display: flex;
     text-align: justify;
@@ -113,7 +102,6 @@ nav::after {
     display: flex;
 }
 
-
 /* ######## MAIN ADMIN CONTACT / OUTILS */
 
 .admin {
@@ -123,25 +111,6 @@ nav::after {
     font-weight: 300;
     min-width: 28vh;
 }
-
-.admin::after {
-    content: "";
-    height: 150px;
-    width: 150px;
-    background: radial-gradient(circle closet-side, rgda(255,55,255,0,94), transparent);
-    position :absolute;
-    transform: translate(-50%, -50%);
-    transition: 0.25s;
-    z-index: 20;
-    opacity: 0;
-    left: var(--x);
-    top:var(--y);
-}
-
-.admin:hover::after {
-    opacity: 1;
-}
-
 
 .picto-contact {
     padding-top: 40px;
@@ -432,7 +401,7 @@ nav::after {
     margin-bottom: 10px;
 }
 
-.mousemove {
+*.mousemove {
     height: 15px;
     width: 15px;
     border: 2px solid blue;
@@ -444,6 +413,19 @@ nav::after {
 }
 
 
+/* .admin::after {
+    content: "";
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(circle closet-side, rgda(255,55,255,2), transparent);
+    position : absolute;
+    transform: translate(-50%, -50%);
 
+}
+
+.admin:hover::after {
+    opacity: 1;
+}
+*/
 
 

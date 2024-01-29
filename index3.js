@@ -35,6 +35,25 @@ durees.forEach((duree) => {
   });
 });
 
+setTimeout(() => {
+  durees.forEach((duree) => {
+    duree.style.fontWeight = "390";
+  });
+}, 10000);
+
+/* let interval = setInterval(() => {
+  durees.forEach((duree) => {
+    duree.style.color = "rgba(49, 171,220)";
+    duree.style.fontWeight = "380";
+  });
+}, 3000);
+
+dures.forEach((duree) => {
+  duree.addEventListener("click", () => {
+    clearInterval(interval);
+  });
+}); */
+
 const mousemove = document.querySelector(".mousemove");
 
 window.addEventListener("mousemove", (e) => {
@@ -93,9 +112,15 @@ window.addEventListener("scroll", () => {
   }
 });
 
+/* const boxAdmin = document.querySelector(".admin");
+console.log(boxAdmin);
+
 window.addEventListener("mousemove", (e) => {
-  admin.style.setProperty("--X", e.layerX + "33px");
-});
+  console.log(e.layerX);
+
+  boxAdmin.style.setProperty("--x", e.layerX + "px");
+  boxAdmin.style.setProperty("--y", e.layerY + "px");
+}); */
 
 /* const inputName = document.querySelector('input[type="text"]');
 // console.log(inputName); //
