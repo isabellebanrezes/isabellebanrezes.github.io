@@ -80,7 +80,7 @@ body {
     padding-bottom: 0px;
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -88,6 +88,18 @@ body {
     padding-bottom: 0px;
     font-size: 1rem;
 }
+
+
+nav::after {
+    content: "";
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(circle closet-side, red);
+    position :absolute;
+    transform: translate(-50%, -50%);
+}
+
+
 
 .titre-skill {
     display: flex;
@@ -110,6 +122,24 @@ body {
     text-align: center;
     font-weight: 300;
     min-width: 28vh;
+}
+
+.admin::after {
+    content: "";
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(circle closet-side, rgda(255,55,255,0,94), transparent);
+    position :absolute;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+    z-index: 20;
+    opacity: 0;
+    left: var(--x);
+    top:var(--y);
+}
+
+.admin:hover::after {
+    opacity: 1;
 }
 
 

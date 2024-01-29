@@ -16,11 +16,22 @@ emplois.forEach((emploi) => {
 });
 
 const durees = document.querySelectorAll(".duree");
-console.log(durees);
+// console.log(durees); //
+
+/* durees.forEach((duree) => {
+  duree.addEventListener("click", () => {
+    duree.style.color = "black";
+  });
+}); */
 
 durees.forEach((duree) => {
-  duree.addEventListener("click", (e) => {
-    e.target.style.color = "black";
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 580) {
+      // console.log(window.scrollY); //
+      duree.style.color = "rgba(34,108,212)";
+    } else {
+      duree.style.color = "gray";
+    }
   });
 });
 
@@ -82,7 +93,11 @@ window.addEventListener("scroll", () => {
   }
 });
 
-const inputName = document.querySelector('input[type="text"]');
+window.addEventListener("mousemove", (e) => {
+  admin.style.setProperty("--X", e.layerX + "33px");
+});
+
+/* const inputName = document.querySelector('input[type="text"]');
 // console.log(inputName); //
 
 const selectLanguage = document.querySelector("select");
@@ -115,4 +130,4 @@ form.addEventListener("submit", (e) => {
   } else {
     alert("Veuillez accepter les cgv");
   }
-});
+}); */
