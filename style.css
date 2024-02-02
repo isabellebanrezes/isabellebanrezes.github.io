@@ -38,8 +38,6 @@ body {
     display: flex;
     height: 28vh;
     width: 100%;
-
-
 }
 
 .photo {
@@ -59,6 +57,7 @@ body {
     font-size: 2rem;
     width: 100%;
     padding-top: 0px;
+   
 
 }
 
@@ -215,6 +214,8 @@ nav {
     background: linear-gradient(white,rgba(34, 108, 212, 0.889));
     background: rgba(141, 192, 240, 0.74);
     width: 100%;
+    
+
 }
 
 /* BLOCK CERTIFICATION */
@@ -260,6 +261,7 @@ nav {
     margin: 15px;
     font-size: 1.2rem;
     padding-left: 40px;
+    
 }
 /* picto diplome */
 .picto-formation {
@@ -299,6 +301,8 @@ nav {
 
 .contenu {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     flex-wrap: wrap;
     width: 100%;
 }
