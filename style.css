@@ -431,3 +431,29 @@ nav {
 */
 
 
+/* #####   FOOTER  #####*/
+
+.telechargement {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(133, 155, 174);
+}
+
+
+.lien-cv-drive {
+    padding-top: 60px;
+    align-self: center;
+    height: 55px;
+    width: 25%;
+    size: 10px;
+    /* text-decoration: none; */
+    color: black;
+}
+
+
+.lien-cv-drive:hover {
+    color :rgb(121, 220, 195);
+}
