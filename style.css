@@ -458,3 +458,70 @@ nav {
     color :rgb(121, 220, 195);
 }
 
+
+/*********************  BURGER ***************/
+
+/* STYLE BURGER DEPLOYER  - MENU OUVERT */
+.myBurger {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left : -250px;
+    background-color:#b2e5e5 ;
+    transition: left 0.5s ease;
+}
+
+
+/* STYLE CONTENT BURGER */
+.myBurger a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    display: block;
+    transition: 0.3s;
+}
+
+.myBurger a:hover {
+    color: #111;
+}
+
+/* STYLE LISTE  */ 
+.listBurger {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*** ACTIF CLASS BURGER ***/ 
+
+.myBurger .active {
+    left: 0;
+}
+
+/* REPLIER LE BURGER */
+.myBurger .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+/*  LOGO BURGER   */ 
+.burger-logo span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+
+
+
+
+
+
+
