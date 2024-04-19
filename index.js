@@ -114,11 +114,11 @@ window.addEventListener("scroll", () => {
 
 // ********  BURGER  *************************************
 
-let myBurger = document.getElementById("burger");
-console.log(myBurger);
-let openBurger = document.getElementById("openBurger");
+let menuBurger = document.querySelector(".myBurger");
+console.log(menuBurger);
+let openBurger = document.querySelector(".open");
 console.log(openBurger);
-let closeBurger = document.getElementById("closeBurger");
+let closeBurger = document.querySelector(".close");
 console.log(closeBurger);
 
 openBurger.onclick = openNav;
@@ -127,13 +127,13 @@ closeBurger.onclick = closeNav;
 /* ON AFFICHE LE MENU  */
 
 function openNav() {
-  myBurger.classList.add("active");
+  menuBurger.classList.add("active");
 }
 
 /* ON REPLIE LE MENU  */
 
 function closeNav() {
-  myBurger.classList.remove("active");
+  menuBurger.classList.remove("active");
 }
 
 /* const boxAdmin = document.querySelector(".admin");

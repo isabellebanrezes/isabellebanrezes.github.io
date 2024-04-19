@@ -1,23 +1,21 @@
 // ********  BURGER  *************************************
 
-let myBurger = document.getElementById("burger");
-console.log(myBurger);
-let openBurger = document.getElementById("openBurger");
-console.log(openBurger);
-let closeBurger = document.getElementById("closeBurger");
-console.log(closeBurger);
+let menuBurger = document.querySelector(".burger");
+console.log(menuBurger);
+let menuOpen = document.querySelector(".open");
+console.log(menuOpen);
+let menuClose = document.querySelector(".close");
+console.log(menuClose);
 
-openBurger.onclick = openNav;
-closeBurger.onclick = closeNav;
+menuOpen.onclick = openNav;
+menuClose.onclick = closeNav;
 
 /* ON AFFICHE LE MENU  */
-
 function openNav() {
-  myBurger.classList.add("active");
+  menuBurger.classList.add("active");
 }
 
 /* ON REPLIE LE MENU  */
-
 function closeNav() {
-  myBurger.classList.remove("active");
+  menuBurger.classList.remove("active");
 }

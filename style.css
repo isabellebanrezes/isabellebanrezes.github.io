@@ -471,6 +471,7 @@ nav {
     left : -250px;
     background-color:#b2e5e5 ;
     transition: left 0.5s ease;
+    padding-top: 60px;
 }
 
 
@@ -481,7 +482,14 @@ nav {
     font-size: 20px;
     color: gray;
     display: block;
+    font-weight: 300;
     transition: 0.3s;
+    align-content: flex-start;
+}
+
+.liste-projet {
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .myBurger a:hover {
@@ -497,12 +505,12 @@ nav {
 
 /*** ACTIF CLASS BURGER ***/ 
 
-.myBurger .active {
+.active {
     left: 0;
 }
 
 /* REPLIER LE BURGER */
-.myBurger .close {
+.close {
     position: absolute;
     top: 0;
     right: 25px;
@@ -517,6 +525,7 @@ nav {
     background-color: black;
     margin: 4px 0;
 }
+
 
 
 

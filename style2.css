@@ -1,7 +1,7 @@
 /*********************  BURGER ***************/
 
 /* STYLE BURGER DEPLOYER  - MENU OUVERT */
-.myBurger {
+.burger {
     height: 100%;
     width: 250px;
     position: fixed;
@@ -9,12 +9,13 @@
     top: 0;
     left : -250px;
     background-color:#b2e5e5 ;
+    padding-top: 60px;
     transition: left 0.5s ease;
 }
 
 
 /* STYLE CONTENT BURGER */
-.myBurger a {
+.burger a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
@@ -23,25 +24,32 @@
     transition: 0.3s;
 }
 
-.myBurger a:hover {
+.burger a:hover {
     color: #111;
 }
 
 /* STYLE LISTE  */ 
-.listBurger {
+.burger ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
+.liste-projet {
+   margin-left: 30px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+
 /*** ACTIF CLASS BURGER ***/ 
 
-.myBurger .active {
+.active {
     left: 0;
 }
 
 /* REPLIER LE BURGER */
-.myBurger .close {
+.close {
     position: absolute;
     top: 0;
     right: 25px;
