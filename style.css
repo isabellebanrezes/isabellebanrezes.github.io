@@ -464,12 +464,12 @@ nav {
 /* STYLE BURGER DEPLOYER  - MENU OUVERT */
 .myBurger {
     height: 100%;
-    width: 250px;
+    width: 260px;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 0px;
     left : -250px;
-    background-color:#b2e5e5 ;
+    background-color: #a8cfe2;
     transition: left 0.5s ease;
     padding-top: 60px;
 }
@@ -509,24 +509,54 @@ nav {
     left: 0;
 }
 
-/* REPLIER LE BURGER */
+/* CROIX POUR FERMER LE MENU */
 .close {
     position: absolute;
-    top: 0;
-    right: 25px;
+    top: 0px;
+    right: 5px;
     font-size: 36px;
 }
+
+
+/* BLOCK DU LOGO BURGER FERME  */
+.open {
+    width: 120px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-decoration: none;
+    /* marge : haut droite bas gauche */
+    margin: 25px 20px 0px 60px;
+    padding: 10px 30px 10px 0px;
+    background-color: black;
+    border-radius: 40px;
+}
+
 
 /*  LOGO BURGER   */ 
 .burger-logo span {
     display: block;
-    width: 30px;
-    height: 4px;
-    background-color: black;
-    margin: 4px 0;
+    width: 22px;
+    height: 3px;
+    background-color:white;
+    /* marge : haut droite bas gauche */
+    margin: 4px 9px 3px 0px;
+    font-weight: 500;
 }
 
-
+.open-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 0px;
+    height: 4px;
+    /* marge : haut droite bas gauche */
+    margin: 0px 15px 12px 0px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+}
 
 
 
