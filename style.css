@@ -531,14 +531,14 @@ nav {
 
 /* BLOCK DU LOGO BURGER FERME  */
 .open {
-    width: 80px;
+    width: 82px;
     height: 16px;
     display: flex;
     justify-content: center;
     align-items:center ;
     text-decoration: none;
     /* marge : haut droite bas gauche */
-    margin: 25px 20px 0px 72px;
+    margin: 25px 18px 0px 78px;
     padding: 10px 30px 10px 0px;
     background-color: black;
     border-radius: 40px;
