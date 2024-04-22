@@ -469,7 +469,7 @@ nav {
     z-index: 1;
     top: 0px;
     left : -250px;
-    background-color: #a8cfe2;
+    background-color: #7ab0d7;
     transition: left 0.5s ease;
     padding-top: 60px;
 }
@@ -477,30 +477,41 @@ nav {
 
 /* STYLE CONTENT BURGER */
 .myBurger a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 20px 32px;
     text-decoration: none;
     font-size: 20px;
     color: gray;
     display: block;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1.1em;
     transition: 0.3s;
     align-content: flex-start;
 }
 
-.liste-projet {
-    font-size: 1.2em;
-    font-weight: 500;
+.language {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    font-weight: 600;
+    color:#005a96 ;
 }
 
 .myBurger a:hover {
     color: #111;
+    font-weight: 400;
 }
 
 /* STYLE LISTE  */ 
-.listBurger {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.liste-language {
+    text-align: center;
+    padding: 0px 20px 30px 0px;
+}
+
+/* TYPE LANGUAGE */
+.type-language {
+    font-weight: 700;
+
 }
 
 /*** ACTIF CLASS BURGER ***/ 
@@ -520,8 +531,8 @@ nav {
 
 /* BLOCK DU LOGO BURGER FERME  */
 .open {
-    width: 90px;
-    height: 20px;
+    width: 80px;
+    height: 16px;
     display: flex;
     justify-content: center;
     align-items:center ;
@@ -537,11 +548,11 @@ nav {
 /*  LOGO BURGER   */ 
 .burger-logo span {
     display: block;
-    width: 22px;
-    height: 3px;
+    width: 20px;
+    height: 2px;
     background-color:white;
     /* marge : haut droite bas gauche */
-    margin: 4px 9px 3px 0px;
+    margin: 4px 9px 5px 0px;
     font-weight: 500;
 }
 
@@ -551,7 +562,7 @@ nav {
     width: 0px;
     height: 4px;
     /* marge : haut droite bas gauche */
-    margin: 0px 15px 13px 0px;
+    margin: 0px 14px 14px 0px;
     text-transform: uppercase;
     color: white;
     font-weight: 500;

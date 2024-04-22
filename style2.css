@@ -35,10 +35,11 @@
     margin: 0;
 }
 
-.liste-projet {
+.language {
    margin-left: 30px;
   font-size: 1.4em;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 
