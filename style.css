@@ -516,7 +516,7 @@ nav {
 
 }
 
-/*** ACTIF CLASS BURGER ***/ 
+/*** class pour voir le menu s'afficher ***/ 
 
 .active {
     left: 0;
@@ -540,7 +540,7 @@ nav {
 
 /* BLOCK DU LOGO BURGER FERME  */
 .open {
-    width: 82px;
+    width: 80px;
     height: 16px;
     display: flex;
     justify-content: center;
@@ -564,7 +564,7 @@ nav {
     margin: 4px 9px 5px 0px;
     font-weight: 500;
 }
-
+/* MOT MENU DANS LE BURGER */
 .open-menu {
     display: flex;
     flex-wrap: wrap;
