@@ -1,0 +1,105 @@
+
+ /* ########## GENERAL ######## */
+ @font-face {
+    font-family: "inter";
+    src: url(./Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf)
+  }
+
+/*****  HEADER  **********/
+
+.header {
+    width: 100%;
+    height: 206px;
+    display: flex;
+
+}
+
+.entete-header {
+    width: 90%;
+    height: 206px;
+       /* on met les elemnts encadres par cette balise sur une seule ligne*/ 
+    display: flex;
+    /* le flex-wra: wrap sert à dire que si des elements ne rentrent pas sur la ligne, cad qu'ils sortent de leur parent alors ils vont aller sur une ligne suivante en-dessous*/
+    color: black;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a8cfe2;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h1, h2, img {
+  
+}
+
+.sous-titre-header {
+    font-weight: 300;
+     font-style: italic;
+     text-transform: uppercase;
+     font-size: 1rem;
+     padding-top: 20px;
+}
+
+.logo-js {
+    width: 20%px;
+    height: 206px;
+}
+
+/******    MAIN   **********/
+
+.container-projets {
+    /* on met les elemnts encadres par cette balise sur une seule ligne*/ 
+    background-color: #7ab0d7;
+    display:flex;
+    flex-wrap: wrap;
+    /* permet de centrer horizontalement */
+    justify-content: space-evenly;
+    /* align-items permet de centrer verticalement les elements enfants par rapport au parent - si on ne met pas une taille sur les elements enfants et parents : les enfants vont prendre toute la taille du parent !!!  - ici on aligne les elements enfants en centre de l'element parent _ Mais il fau donner une taille (une hauteur - taille verticlale) à l'element  height*/
+    align-items: center;
+    row-gap: 20px;
+    padding-top: 30px;
+}
+
+.projet-main {
+    width: 450px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    border: 6px solid #2679b8;
+    border-radius: 9px;
+    color: white;
+}
+
+.nom-projet {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.logo-projet {
+    width: 200px;
+    height:170px;
+    border-radius: 5%;
+}
+
+.lien-git {
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a8cfe2;
+}
+
+.projet-main a:hover {
+    color: #d0ecea;
+}
+
+.commentaires {
+    color:beige;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
