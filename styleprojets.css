@@ -1,9 +1,21 @@
 
  /* ########## GENERAL ######## */
- @font-face {
-    font-family: "inter";
-    src: url(./Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf)
-  }
+ 
+ // <uniquifier>: Use a unique and descriptive class name
+ // <weight>: Use a value from 400 to 900
+ 
+ .maven-pro-<uniquifier> {
+   font-family: "Maven Pro", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+ }
+
+ /* ########## BODY ######## */
+
+body {
+    font-family:"Maven Pro", sans-serif;
+}
 
 /*****  HEADER  **********/
 
@@ -78,7 +90,7 @@ h1, h2, img {
 
 .projet-main {
     width: 450px;
-    height: 350px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -115,8 +127,20 @@ h1, h2, img {
 }
 
 .commentaires {
-    color:beige;
-    font-size: 1rem;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid;
+
+}
+
+li {
+    color:#302e38;
+    font-size: 1.3rem;
     font-weight: 300;
-    text-transform: uppercase;
+    text-align: center;
 }
